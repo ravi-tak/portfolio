@@ -1,0 +1,42 @@
+[
+  {
+    "title": "React",
+    "imageSrc": "skills/react.svg"
+  },
+  {
+    "title": "Redux/RTK",
+    "imageSrc": "skills/redux.svg"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.svg"
+  },
+  {
+    "title": "Django",
+    "imageSrc": "skills/django.svg"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.svg"
+  },
+  {
+    "title": "C++",
+    "imageSrc": "skills/c++.svg"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.svg"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.svg"
+  },
+  {
+    "title": "GitHub",
+    "imageSrc": "skills/github.svg"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "skills/figma.svg"
+  }
+]
