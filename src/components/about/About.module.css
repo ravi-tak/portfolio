@@ -1,14 +1,21 @@
 @import "../../vars.css";
 
 .container {
-  position: relative;
+  /* position: relative;
   background-color: rgba(12, 12, 12, 0.6);
   border-radius: 15px;
   padding: 73px;
   margin-top: 129px;
   z-index: 1;
   margin-left: 10%;
+  margin-right: 10%; */
+
+  position: relative;
+  color: var(--color-text);
+  margin-top: 129px;
+  margin-left: 10%;
   margin-right: 10%;
+  z-index: 1;
 }
 
 .title {
@@ -20,10 +27,8 @@
 }
 
 .content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   margin-top: 37px;
+  padding: 0 73px;
 }
 
 .aboutImage {
@@ -63,18 +68,47 @@
   font-weight: 600;
 }
 
+.intro,
 .aboutItem p {
+  line-height: 1.5;
   font-size: 25px;
+}
+
+.intro {
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 16px;
+  color: var(--color-text);
+  margin-bottom: 2rem;
+  padding: 2rem;
+  line-height: 2.5rem;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+.call {
+  margin-top: 2rem;
+  display: inline-block;
+  color: var(--color-text);
+  font-size: 2.5rem;
+  font-weight: bold;
+  transition: all 0.5s;
+  /* text-decoration: none; */
+}
+
+.call:hover {
+  color: var(--color-primary);
+  text-decoration: none;
 }
 
 @media screen and (max-width: 830px) {
   .container {
     background-color: transparent;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
   }
 
   .content {
+    padding: 0;
     flex-direction: column;
   }
 
@@ -89,5 +123,16 @@
   .aboutItem {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .intro {
+    background-color: initial;
+    padding: 0;
+    letter-spacing: initial;
+  }
+
+  .call {
+    color: var(--color-primary);
+    text-align: center;
   }
 }
