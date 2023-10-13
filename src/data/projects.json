@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Shopping Cart",
+    "imageSrc": "projects/shopping.png",
+    "description": "Built a shopping cart app to view products and create a personal cart.",
+    "skills": [
+      "React",
+      "Redux/RTK",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "demo": "https://shopping-cart-flax-rho.vercel.app/",
+    "source": "https://github.com/ravi-tak/shopping-cart"
+  },
+  {
+    "title": "Blogging Platform",
+    "imageSrc": "projects/blog.png",
+    "description": "Created a versatile blogging platform that enables users to share content and engage with their community.",
+    "skills": [
+      "Django",
+      "Django REST",
+      "HTML",
+      "CSS"
+    ],
+    "demo": "https://django-project-two.vercel.app/",
+    "source": "https://github.com/ravi-tak/Django_project"
+  },
+  {
+    "title": "Robo Friends",
+    "imageSrc": "projects/robofriends.png",
+    "description": "Developed a React app that displays individual details in card format fetched from an API",
+    "skills": [
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "demo": "https://robofriends-app-xi.vercel.app/",
+    "source": "https://github.com/ravi-tak/Robofriends-App"
+  }
+]

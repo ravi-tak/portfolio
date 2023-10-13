@@ -1,0 +1,16 @@
+[
+  {
+    "role": "Software Developer",
+    "organisation": "Explorin",
+    "startDate": "May, 2023",
+    "endDate": "Present",
+    "experiences": [
+      "❝ Developed an appealing and user-friendly web interface using Figma for an educational platform called Cohort, serving 300+ college students. ❞",
+      "❝ Integrated and built some APIs for seamless front-back-end communication, enhancing the user experience. ❞",
+      "❝ Implemented JWT authorization to enhance security for subsequent authenticated requests. ❞",
+      "❝ Successfully applied state management library using Redux Toolkit and efficiently handled subsequent requests with RTK Query. ❞"
+    ],
+    "imageSrc": ["history/work-1.png", "history/work-2.png"],
+    "link": "https://code.explorin.io/today/"
+  }
+] 
