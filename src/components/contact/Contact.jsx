@@ -93,6 +93,7 @@ export const Contact = () => {
           <label>
             <input
               type="text"
+              name="name"
               placeholder="Your Name"
               required
             />

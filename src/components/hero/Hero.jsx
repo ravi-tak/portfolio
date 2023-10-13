@@ -7,19 +7,58 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <p className={`${styles.description} ${styles.greet}`}>👋 Hi, I'm</p>
+        <p className={`${styles.description} ${styles.greet}`}>
+          👋 Hi :) , I'm
+        </p>
         <h1 className={styles.title}>Ravi Kumar Tak</h1>
         <p className={styles.description}>
-          I'm a full-stack developer with 5 years of experience using React and
-          NodeJS. Reach out if you'd like to learn more!
+          A Full-Stack Developer with ample experience in the Web. I am
+          passionate about learning more about tech.
         </p>
-        <a
-          href="https://drive.google.com/drive/my-drive"
-          target="_blank"
-          className={styles.resume}
-        >
-          Resumé
-        </a>
+        <div className={styles.contact}>
+          <a
+            href="https://drive.google.com/drive/my-drive"
+            target="_blank"
+            className={styles.resume}
+          >
+            Resumé
+          </a>
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/ravi-kumar-tak-b80205212/"
+                target="_blank"
+              >
+                <img
+                  src={getImageUrl("contact/linkedinIcon.png")}
+                  alt="linkedin"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/ravi-tak"
+                target="_blank"
+              >
+                <img
+                  src={getImageUrl("contact/githubIcon.png")}
+                  alt="github"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="mailto:ravikumartakajm@gmail.com"
+                target="_blank"
+              >
+                <img
+                  src={getImageUrl("contact/emailIcon.png")}
+                  alt="email"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
       <img
         src={getImageUrl("hero/hero.jpg")}

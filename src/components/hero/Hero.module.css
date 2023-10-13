@@ -22,7 +22,7 @@
 .title {
   font-size: 60px;
   font-weight: 900;
-  margin-bottom: 33px;
+  margin: 2rem 0;
   font-family: var(--font-roboto);
   background: linear-gradient(
     90deg,
@@ -40,7 +40,7 @@
 }
 
 .greet {
-  margin-bottom: 1rem;
+  margin: 0;
 }
 
 .resume {
@@ -50,8 +50,24 @@
   border-radius: 100px;
   font-size: 30px;
   font-weight: 600;
-  padding: 17px 26px;
+  padding: .5rem 1.5rem;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contact ul {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.contact img {
+  height: 36px;
 }
 
 .heroImg {
@@ -119,10 +135,18 @@
   }
 
   .greet {
-    margin: 1.5rem 0;
+    margin: 2.5rem 0 0;
   }
 
   .heroImg {
     padding-left: 0;
+  }
+
+  .resume {
+    font-size: 24px;
+  }
+
+  .contact ul {
+    gap: 1rem;
   }
 }

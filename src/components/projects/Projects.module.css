@@ -23,7 +23,7 @@
   justify-content: space-between;
   gap: 20px;
   width: 100%;
-  padding: 0 73px;;
+  padding: 0 73px;
 }
 
 @media screen and (max-width: 830px) {
@@ -31,5 +31,6 @@
     flex-direction: column;
     flex-wrap: nowrap;
     padding: 0;
+    gap: 28px;
   }
 }

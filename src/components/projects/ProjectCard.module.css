@@ -6,13 +6,15 @@
   border-radius: 10px;
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   box-shadow: 0 16px 14px 0 #04152d;
-  padding: 18px 24px;
+  padding: 24px;
   max-width: 31%;
   align-self: stretch;
 }
 
 .image {
+  height: 144px;
   margin-bottom: 26px;
+  border-radius: 10px;
 }
 
 .title {
@@ -21,14 +23,14 @@
 }
 
 .description {
-  margin-top: 6px;
+  margin-top: 12px;
   font-size: 25px;
   font-weight: 400;
 }
 
 .skills {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 24px;
   margin-bottom: auto;
   display: flex;
   flex-direction: row;
@@ -47,7 +49,7 @@
 
 .links {
   width: 100%;
-  margin-top: 26px;
+  margin-top: 36px;
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
@@ -67,5 +69,9 @@
 @media screen and (max-width: 830px) {
   .container {
     max-width: none;
+  }
+
+  .image {
+    height: 180px;
   }
 }
