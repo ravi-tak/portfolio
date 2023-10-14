@@ -132,4 +132,8 @@
   .text p {
     font-size: 1.8rem;
   }
+
+  .text h2 {
+    font-size: 74px;
+  }
 }

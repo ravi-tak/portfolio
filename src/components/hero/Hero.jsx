@@ -17,7 +17,7 @@ export const Hero = () => {
         </p>
         <div className={styles.contact}>
           <a
-            href="https://drive.google.com/drive/my-drive"
+            href="https://drive.google.com/file/d/1knZD6M5AdUxNtMt0V0eWPAb6bEPiVCuH/view?usp=sharing"
             target="_blank"
             className={styles.resume}
           >
