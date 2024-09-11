@@ -1,4 +1,4 @@
-@import "../../vars.css";
+@import '../../vars.css';
 
 .container {
   /* position: relative;
@@ -89,7 +89,7 @@
 .call {
   margin-top: 2rem;
   display: inline-block;
-  color: var(--color-text);
+  color: var(--color-primary);
   font-size: 2.5rem;
   font-weight: bold;
   transition: all 0.5s;
@@ -97,7 +97,7 @@
 }
 
 .call:hover {
-  color: var(--color-primary);
+  color: var(--color-text);
   text-decoration: none;
 }
 

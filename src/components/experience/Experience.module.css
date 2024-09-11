@@ -29,7 +29,8 @@
 
 .historyImgDiv {
   display: flex;
-  gap: 4rem;
+  flex-wrap: wrap;
+  gap: 3rem;
   border-radius: 10px;
 }
 
@@ -75,7 +76,7 @@
 }
 
 .historyItem img {
-  width: 333px;
+  width: 341px;
   height: 200px;
   border-radius: 10px;
 }

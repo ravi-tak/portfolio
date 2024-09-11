@@ -4,6 +4,30 @@
     "imageSrc": "skills/react.svg"
   },
   {
+    "title": "Next.js",
+    "imageSrc": "skills/next.svg"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "skills/typescript.svg"
+  },
+  {
+    "title": "Tailwind CSS",
+    "imageSrc": "skills/tailwind.svg"
+  },
+  {
+    "title": "Node.js",
+    "imageSrc": "skills/node.svg"
+  },
+  {
+    "title": "Express.js",
+    "imageSrc": "skills/express.svg"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongo.svg"
+  },
+  {
     "title": "Redux/RTK",
     "imageSrc": "skills/redux.svg"
   },
@@ -34,9 +58,5 @@
   {
     "title": "GitHub",
     "imageSrc": "skills/github.svg"
-  },
-  {
-    "title": "Figma",
-    "imageSrc": "skills/figma.svg"
   }
 ]

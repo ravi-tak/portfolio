@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react'
 
-import styles from "./Experience.module.css";
-import history from "../../data/history.json";
-import { getImageUrl } from "../../utils";
+import styles from './Experience.module.css'
+import history from '../../data/history.json'
+import { getImageUrl } from '../../utils'
 
 export const Experience = () => {
   return (
     <section
       className={styles.container}
-      id="experience"
+      id='experience'
     >
       <h2 className={styles.title}>Experience</h2>
       <div className={styles.content}>
@@ -21,27 +21,29 @@ export const Experience = () => {
                   <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
                   <ul>
                     {historyItem.experiences.map((experience, id) => {
-                      return <li key={id}>{experience}</li>;
+                      return <li key={id}>{experience}</li>
                     })}
                   </ul>
                   <div className={styles.work}>
-                    <a
-                      className={styles.link}
-                      href={historyItem.link}
-                      target="_blank"
-                    >
-                      Live
-                    </a>
-                    <div className={styles.historyImgDiv}>
-                      <img
-                        src={getImageUrl(historyItem.imageSrc[0])}
-                        alt="img"
-                      />
-                      <img
-                        src={getImageUrl(historyItem.imageSrc[1])}
-                        alt="img"
-                      />
-                    </div>
+                    {historyItem?.link && (
+                      <a
+                        className={styles.link}
+                        href={historyItem?.link}
+                        target='_blank'
+                      >
+                        Live
+                      </a>
+                    )}
+                    {historyItem?.imageSrc?.length > 0 && (
+                      <div className={styles.historyImgDiv}>
+                        {historyItem?.imageSrc?.map((img) => (
+                          <img
+                            src={getImageUrl(img)}
+                            alt='img'
+                          />
+                        ))}
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>
@@ -50,5 +52,5 @@ export const Experience = () => {
         </ul>
       </div>
     </section>
-  );
-};
+  )
+}

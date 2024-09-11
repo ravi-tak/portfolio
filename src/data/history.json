@@ -5,12 +5,32 @@
     "startDate": "May, 2023",
     "endDate": "Present",
     "experiences": [
-      "❝ Developed an appealing and user-friendly web interface using Figma for an educational platform called Cohort, serving 300+ college students. ❞",
+      "❝ Developed and deployed various internal scripts to address business requirements and automate redundant tasks, significantly enhancing workflow efficiency. ❞",
+      "❝ Build APIs for both user and admin sides to support new features, including significantly optimizing admin dash-board APIs to manage high data loads effectively. ❞",
+      "❝ Developed and implemented a comprehensive booking system, driving the project from initial design through to successful deployment. ❞",
+      "❝ Successfully applied state management library using Redux Toolkit and efficiently handled subsequent requests with RTK Query. ❞",
+      "❝ Enhanced frontend performance, resulting in a significant reduction in latency and improved load times. ❞",
+      "❝ Executed the integration of a Payment gateway and handled the end-to-end invoice generation process. ❞",
+      "❝ Created their primary website from scratch, with a strong emphasis on performance improvements. ❞"
+    ],
+    "imageSrc": [
+      "history/work-1.png",
+      "history/work-2.png",
+      "history/work-3.png",
+      "history/work-4.png"
+    ],
+    "link": "https://explorin.io"
+  },
+  {
+    "role": "Software Developer Intern",
+    "organisation": "Explorin",
+    "startDate": "Jan, 2023",
+    "endDate": "April, 2023",
+    "experiences": [
+      "❝ Developed an appealing and user-friendly web interface using Figma for an educational platform called Cohort, serving 500+ college students. ❞",
       "❝ Integrated and built some APIs for seamless front-back-end communication, enhancing the user experience. ❞",
       "❝ Implemented JWT authorization to enhance security for subsequent authenticated requests. ❞",
-      "❝ Successfully applied state management library using Redux Toolkit and efficiently handled subsequent requests with RTK Query. ❞"
-    ],
-    "imageSrc": ["history/work-1.png", "history/work-2.png"],
-    "link": "https://code.explorin.io/today/"
+      "❝ Collaborated as a key core team member, contributing to a 40% faster development pace and quicker feature rollouts. ❞"
+    ]
   }
-] 
+]
