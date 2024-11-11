@@ -3,6 +3,7 @@ import React from 'react'
 import styles from './Experience.module.css'
 import history from '../../data/history.json'
 import { getImageUrl } from '../../utils'
+import LazyLoaded from '../LazyLoaded'
 
 export const Experience = () => {
   return (
@@ -34,16 +35,18 @@ export const Experience = () => {
                         Live
                       </a>
                     )}
-                    {historyItem?.imageSrc?.length > 0 && (
-                      <div className={styles.historyImgDiv}>
-                        {historyItem?.imageSrc?.map((img) => (
-                          <img
-                            src={getImageUrl(img)}
-                            alt='img'
-                          />
-                        ))}
-                      </div>
-                    )}
+                    <LazyLoaded>
+                      {historyItem?.imageSrc?.length > 0 && (
+                        <div className={styles.historyImgDiv}>
+                          {historyItem?.imageSrc?.map((img) => (
+                            <img
+                              src={getImageUrl(img)}
+                              alt='img'
+                            />
+                          ))}
+                        </div>
+                      )}
+                    </LazyLoaded>
                   </div>
                 </div>
               </div>
